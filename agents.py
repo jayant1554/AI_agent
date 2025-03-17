@@ -1,15 +1,13 @@
 from crewai import Agent, Task, Crew
 from dotenv import load_dotenv
-from langchain_community.llms import ollama
 from tools import yt_tool
 import os
 
 # Load environment variables
 load_dotenv()
-
-from langchain_ollama import OllamaLLM
-
-llm = OllamaLLM(model="mistral")  # ✅ This is correct
+import os
+os.environ["OPENAI_API_KEY"] = os.getenv("OPENAI_API_KEY")
+os.environ["OPENAI_MODEL_NAME"]="gpt-4-0125-preview"
 
 
 
