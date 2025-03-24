@@ -1,7 +1,12 @@
 crewai
+dotenv
+groq
+litellm
 crewai_tools
 load_dotenv
 databricks.sdk
 langchain-huggingface
+pydantic
+openai
 langchain-ollama
 langchain_community

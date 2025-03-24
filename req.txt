@@ -1,0 +1,5 @@
+crewai
+dotenv
+groq
+chroma
+crewai_tools
